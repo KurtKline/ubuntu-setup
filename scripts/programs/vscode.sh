@@ -1,8 +1,7 @@
 #!/bin/bash
 
 # Visual Studio Code
-sudo apt update
-sudo apt install -y code
+sudo snap install -y code
 
 function install {
   name="${1}"
