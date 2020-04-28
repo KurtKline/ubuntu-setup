@@ -1,4 +1,8 @@
 #!/bin/bash
+
+# Up from scripts dir
+cd ..
+
 dotfilesDir=$(pwd)
 
 function linkDotfile {
