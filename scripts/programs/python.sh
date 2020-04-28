@@ -1,4 +1,5 @@
 #!/bin/bash
 
 echo "🐍 Installing Python"
-sudo apt install -y python3-venv python3-pip
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt install -y python3.8
