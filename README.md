@@ -11,4 +11,16 @@ The majority of the code and structure were taken and adapted from: https://gith
 (5) Run the `setup.sh` script by using the command `./setup.sh`  
 (6) Sit back and relax
 
-## 
+## Describing the process
+When the `setup.sh` script is executed, it executes the following scripts: 
+
+### symlink.sh
+Creates symbolic links in the $HOME directory which point back to the dotfiles in the project folder. 
+
+For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
+
+### aptinstall.sh
+Installs commonly used packages and programs with apt and snap.
+
+### programs.sh
+For programs which cannot be installed simply with apt or snap, the shell scripts in the `programs` folder are executed.
