@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Visual Studio Code
-sudo snap install -y code
+sudo snap install code --classic
 
 function install {
   name="${1}"
