@@ -2,6 +2,8 @@
 
 VERSION="1.14.2"
 
+echo "Installing Golang"
+
 source .bashrc
 wget https://dl.google.com/go/go$VERSION.linux-amd64.tar.gz
 tar xvfz go$VERSION.linux-amd64.tar.gz
