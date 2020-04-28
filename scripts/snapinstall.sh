@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Snap installs
 
 function install {
