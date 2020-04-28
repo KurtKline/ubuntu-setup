@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Visual Studio Code
+echo "Installing VSCode"
 sudo snap install code --classic
 
 function install {
