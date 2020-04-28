@@ -7,7 +7,7 @@ The majority of the code and structure were taken and adapted from: https://gith
 (1) `git clone` the project under your `$HOME` directory somewhere. I have it under `$HOME/Git/`  
 (2) `cd` into project folder  
 (3) Run `chmod u+x -R scripts` to ensure you have execute permissions for the shell scripts  
-(4) `cd` into the `scripts` folder
+(4) `cd` into the `scripts` folder  
 (5) Run the `setup.sh` script by using the command `./setup.sh`  
 (6) Sit back and relax
 
