@@ -1,10 +1,8 @@
 #!/bin/bash
 
-# Update Kubuntu and get standard repository programs
+./symlink.sh
 ./aptinstall.sh
-
-# Run all programs/ install scripts
-for f in programs/*.sh; do bash "$f" -H; done
+./programs.sh
 
 # Get all upgrades
 sudo apt upgrade -y
