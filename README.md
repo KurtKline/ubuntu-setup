@@ -1,7 +1,6 @@
-# ubuntu-setup
-Includes Ubuntu dot files and programs to install. The majority of the ideas / code was taken and adapted from here: https://github.com/victoriadrake/dotfiles/
+# Ubuntu Setup
+Installs my commonly used packages, programs, and dotfiles.
 
-## Installing programs
-Run `cat programs.txt | xargs sudo snap install` to install all snap programs listed in the `programs.txt` file
+The majority of the code and structure were taken and adapted from: https://github.com/victoriadrake/dotfiles/ (who adapted from https://github.com/tomnomnom/dotfiles)
 
-## .bashrc
+
