@@ -1,6 +1,0 @@
-code
-pycharm-community
-htop
-tree
-spotify
-sublime-text
