@@ -20,3 +20,5 @@ install vim
 install zsh
 install chromium-browser
 install fonts-powerline
+install gnome-tweaks
+install chrome-gnome-shell
