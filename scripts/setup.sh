@@ -10,3 +10,6 @@ sudo apt upgrade -y
 
 # See our bash changes
 source ~/.bashrc
+
+# To show completion
+figlet "... and we're back!" | lolcat
