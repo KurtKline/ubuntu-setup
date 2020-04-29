@@ -6,3 +6,4 @@ cd programs/
 ./vscode.sh
 ./python.sh
 ./vundle.sh
+./zsh.sh
