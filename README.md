@@ -20,7 +20,10 @@ Creates symbolic links in the $HOME directory which point back to the dotfiles i
 For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
 
 ### aptinstall.sh
-Installs commonly used packages and programs with apt and snap.
+Installs commonly used packages and programs with apt.
+
+### snapinstall.sh
+Installs commonly used packages and programs with snap.
 
 ### programs.sh
 For programs which cannot be installed simply with apt or snap, the shell scripts in the `programs` folder are executed.
