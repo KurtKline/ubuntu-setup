@@ -17,5 +17,6 @@ install curl
 install file
 install git
 install vim
+install zsh
 install chromium-browser
 install fonts-powerline
