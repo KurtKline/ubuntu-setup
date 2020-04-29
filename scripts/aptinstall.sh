@@ -18,5 +18,4 @@ install file
 install git
 install vim
 install chromium-browser
-install figlet
-install lolcat
+install fonts-powerline
