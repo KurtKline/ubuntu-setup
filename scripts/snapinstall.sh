@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting snap installs"
+echo "Starting snap installs 📷"
 
 function install {
   which $1 &> /dev/null
