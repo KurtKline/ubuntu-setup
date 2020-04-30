@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Starting apt installs"
+echo "Starting apt installs ⚙️"
 
 sudo apt update && sudo apt full-upgrade -y
 
