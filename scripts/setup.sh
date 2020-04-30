@@ -12,4 +12,5 @@ sudo apt upgrade -y
 # See our bash changes
 source ~/.bashrc
 
-echo "System setup complete. Now enjoy your ☕"
+# Set-up complete
+figlet "Setup complete!" | lolcat
