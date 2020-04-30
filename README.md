@@ -27,3 +27,10 @@ Installs commonly used packages and programs with snap.
 
 ### programs.sh
 For programs which cannot be installed simply with apt or snap, the shell scripts in the `programs` folder are executed.
+
+## Tips
+### Setting your favorite apps
+Here's an example of mine:  
+`gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'pycharm-community_pycharm-community.desktop', 'code_code.desktop', 'atom_atom.desktop', 'chromium_chromium.desktop', 'spotify_spotify.desktop']"`
+
+The .desktop files can be found here `/usr/share/applications/`. Alternatively, you can manually add the apps you want to your favorites and run `gsettings get org.gnome.shell favorite-apps` to see their .desktop names. 
