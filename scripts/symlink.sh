@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "Creating symlinks 🔗"
+
 # Up from scripts dir
 cd ..
 
