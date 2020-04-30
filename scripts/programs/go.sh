@@ -2,7 +2,7 @@
 
 VERSION="1.14.2"
 
-echo "Installing Golang"
+echo "Installing Go 👾"
 
 source .bashrc
 wget https://dl.google.com/go/go$VERSION.linux-amd64.tar.gz
