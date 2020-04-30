@@ -14,7 +14,6 @@ function install {
 }
 
 install curl
-install file
 install git
 install vim
 install zsh
