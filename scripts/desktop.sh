@@ -7,6 +7,12 @@ git clone https://github.com/vinceliuice/Canta-theme.git
 mkdir ~/.themes/; mv Canta-theme $_
 cd ~/.themes/Canta-theme/ && ./install.sh -c dark -t standard -s standard
 
+# Install Blyr plugin
+git clone https://github.com/yozoon/gnome-shell-extension-blyr.git
+cd gnome-shell-extension-blyr/
+make local-install
+rm -rf ../gnome-shell-extension-blyr
+
 gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'pycharm-community_pycharm-community.desktop', 'code_code.desktop', 'atom_atom.desktop', 'chromium_chromium.desktop', 'spotify_spotify.desktop', 'org.gnome.Terminal.desktop']"
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 
