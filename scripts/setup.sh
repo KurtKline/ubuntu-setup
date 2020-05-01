@@ -14,3 +14,7 @@ source ~/.bashrc
 
 # Set-up complete
 figlet "Setup complete!" | lolcat
+
+# Restart Gnome shell
+
+killall -1 gnome-shell
