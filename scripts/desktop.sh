@@ -16,12 +16,24 @@ git clone https://github.com/yozoon/gnome-shell-extension-blyr.git
 cd gnome-shell-extension-blyr/
 make local-install
 rm -rf ../gnome-shell-extension-blyr
+gnome-shell-extension-tool -e gnome-shell-extension-blyr
+
+# Install hidetopbar
+cd ~/.local/share/gnome-shell/extensions/
+git clone https://github.com/mlutfy/hidetopbar.git hidetopbar@mathieu.bidon.ca
+cd hidetopbar@mathieu.bidon.ca
+make schemas
+cd ..
+gnome-shell-extension-tool -e hidetopbar@mathieu.bidon.ca
+gnome-shell --replace &
+
+# Enable user shell themes
+gnome-shell-extension-tool user-theme@gnome-shell-extensions.gcampax.github.com
 
 gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'pycharm-community_pycharm-community.desktop', 'code_code.desktop', 'atom_atom.desktop', 'chromium_chromium.desktop', 'spotify_spotify.desktop', 'org.gnome.Terminal.desktop']"
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 
 # Tweaks > Extensions
-gsettings set org.gnome.shell enabled-extensions "['ubuntu-dock@ubuntu.com', 'user-theme@gnome-shell-extensions.gcampax.github.com']"
 gsettings set org.gnome.shell.extensions.desktop-icons show-home false
 gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
 
