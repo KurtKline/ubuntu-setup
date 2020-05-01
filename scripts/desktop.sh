@@ -16,7 +16,7 @@ git clone https://github.com/yozoon/gnome-shell-extension-blyr.git
 cd gnome-shell-extension-blyr/
 make local-install
 rm -rf ../gnome-shell-extension-blyr
-gnome-extensions enable gnome-shell-extension-blyr
+gnome-extensions enable blyr@yozoon.dev.gmail.com
 
 # Install hidetopbar
 cd ~/.local/share/gnome-shell/extensions/
