@@ -27,4 +27,4 @@ function sleep_countdown() {
 
 sleep_countdown 5
 
-killall -1 gnome-shell
+# killall -1 gnome-shell
