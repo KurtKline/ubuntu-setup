@@ -15,6 +15,5 @@ source ~/.bashrc
 # Set-up complete
 figlet "Setup complete!" | lolcat
 
-# Restart Gnome shell so new extensions will appear
+# Restart Gnome shell
 ./rebootshell.sh
-
