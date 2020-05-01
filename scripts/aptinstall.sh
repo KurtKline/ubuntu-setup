@@ -23,5 +23,6 @@ install chromium-browser
 install fonts-powerline
 install gnome-tweaks
 install chrome-gnome-shell
+install gnome-shell-extensions
 install figlet
 install lolcat
