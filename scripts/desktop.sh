@@ -30,3 +30,4 @@ gsettings set org.gnome.desktop.interface gtk-theme 'Canta-dark' # Applications
 gsettings set org.gnome.desktop.interface cursor-theme 'Yaru' # Cursor
 gsettings set org.gnome.desktop.interface icon-theme 'Yaru' # Icons
 gsettings set org.gnome.shell.extensions.user-theme name 'Canta-dark' # Shell
+gsettings set org.gnome.desktop.wm.preferences theme 'Canta-dark'
