@@ -5,7 +5,11 @@ echo "🖥️ Customizing Desktop & Gnome Preferences"
 # Installing Canta theme
 git clone https://github.com/vinceliuice/Canta-theme.git
 mkdir ~/.themes/; mv Canta-theme $_
-cd ~/.themes/Canta-theme/ && ./install.sh -c dark -t standard -s standard
+~/.themes/Canta-theme/install.sh -c dark -t standard -s standard
+
+# Installing Ant theme
+git clone https://github.com/EliverLara/Ant-Dracula.git
+mv Ant-Dracula ~/.themes/
 
 # Install Blyr plugin
 git clone https://github.com/yozoon/gnome-shell-extension-blyr.git
