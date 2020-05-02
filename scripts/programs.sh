@@ -4,5 +4,5 @@ cd programs/
 
 ./chrome.sh
 ./go.sh
-./vscode.sh
 ./python.sh
+./vscode.sh
