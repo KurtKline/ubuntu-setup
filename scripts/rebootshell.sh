@@ -2,7 +2,7 @@
 
 sleep 2
 echo "The gnome shell will be restarted so that new extensions can load properly."
-sleep 2
+sleep 3
 
 function sleep_countdown() {
 	i=$@
