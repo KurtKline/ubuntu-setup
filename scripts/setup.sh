@@ -9,11 +9,11 @@
 # Get all upgrades
 sudo apt upgrade -y
 
-# See our bash changes
-source ~/.bashrc
-
 # Set-up complete
 figlet "Setup complete!" | lolcat
 
 # Restart Gnome shell
 ./rebootshell.sh
+
+# See our bash changes
+source ~/.bashrc
