@@ -21,7 +21,7 @@ git clone https://github.com/KurtKline/ubuntu-setup.git
 git checkout bare-bones 
 ```
 
-Grant execute permissions on shell scripts  
+Grant execute permissions on bash scripts  
 ```sh
 cd ubuntu-setup && chmod u+x -R scripts
 ```
