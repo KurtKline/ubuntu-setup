@@ -23,7 +23,7 @@ cd ubuntu-setup && git checkout bare-bones
 
 Grant execute permissions on bash scripts  
 ```sh
-cd ubuntu-setup && chmod u+x -R scripts
+chmod u+x -R scripts
 ```
 
 Start set-up process  
