@@ -12,7 +12,7 @@ git clone https://github.com/EliverLara/Ant-Dracula.git
 mv Ant-Dracula ~/.themes/
 
 function enable_extension {
-    if [ $(lsb_release -rs) == '18.04' ]; then 
+    if [[ $(lsb_release -rs) == '18.04' ]]; then 
         gnome-shell-extension-tool -e $1
     else 
         gnome-extensions enable $1
@@ -41,7 +41,7 @@ gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'pyc
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 
 # Tweaks > Extensions
-if [ $(lsb_release -rs) == '18.04' ]; then 
+if [[ $(lsb_release -rs) == '18.04' ]]; then 
     gsettings set org.gnome.desktop.background show-desktop-icons false
 else 
     gsettings set org.gnome.shell.extensions.desktop-icons show-home false
@@ -53,7 +53,7 @@ gsettings set org.gnome.desktop.interface clock-show-weekday true
 gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 # Tweaks > Appearance
-if [ $(lsb_release -rs) == '18.04' ]; then 
+if [[ $(lsb_release -rs) == '18.04' ]]; then 
     cur_theme='whiteglass'
     icon_theme='Humanity'
 else 
