@@ -11,7 +11,9 @@ https://github.com/tomnomnom/dotfiles
 
 ## How to run set-up
 Install git  
-`sudo apt install git`  
+```sh
+sudo apt install git
+```
 
 Clone where you keep your git projects  
 ```sh
@@ -20,10 +22,14 @@ git checkout bare-bones
 ```
 
 Grant execute permissions on shell scripts  
-`cd ubuntu-setup && chmod u+x -R scripts`
+```sh
+cd ubuntu-setup && chmod u+x -R scripts
+```
 
 Start set-up process  
-`cd scripts && ./setup.sh`
+```sh
+cd scripts && ./setup.sh
+```
 
 ## Included `scripts/`
 
