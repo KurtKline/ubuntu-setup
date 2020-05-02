@@ -41,8 +41,12 @@ gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'pyc
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 
 # Tweaks > Extensions
-gsettings set org.gnome.shell.extensions.desktop-icons show-home false
-gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
+if [ $(lsb_release -r -s) == '18.04' ]; then 
+    gsettings set org.gnome.desktop.background show-desktop-icons false
+else 
+    gsettings set org.gnome.shell.extensions.desktop-icons show-home false
+    gsettings set org.gnome.shell.extensions.desktop-icons show-trash false
+fi
 
 # Tweaks > Top Bar
 gsettings set org.gnome.desktop.interface clock-show-weekday true
