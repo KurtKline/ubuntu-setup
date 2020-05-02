@@ -6,7 +6,6 @@ SECONDS=0
 ./aptinstall.sh
 ./snapinstall.sh
 ./programs.sh
-./desktop.sh
 
 # Get all upgrades
 sudo apt upgrade -y
@@ -16,9 +15,6 @@ source ~/.bashrc
 
 # Set-up complete
 figlet "Setup complete!" | lolcat
-
-# Restart Gnome shell
-./rebootshell.sh
 
 # Timing for set-up process
 if (( $SECONDS > 3600 )) ; then
