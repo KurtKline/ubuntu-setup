@@ -5,7 +5,7 @@ It has been tested on fresh installations of:
 `Ubuntu 20.04 LTS - GNOME desktop`  
 `Ubuntu 18.04 LTS - GNOME desktop`
 
-The majority of the code and structure were taken and adapted from:  
+🙌 Much of the code and structure were taken and adapted from 🙌:  
 https://github.com/victoriadrake/dotfiles/  
 https://github.com/tomnomnom/dotfiles
 
