@@ -15,7 +15,7 @@ Install git
 sudo apt install git
 ```
 
-Clone where you keep your git projects  
+Clone the project (e.g. in $HOME/Git/)
 ```sh
 git clone https://github.com/KurtKline/ubuntu-setup.git
 git checkout bare-bones 
