@@ -31,6 +31,8 @@ Start set-up process
 cd scripts && ./setup.sh
 ```
 
+Sit back and relax ☕
+
 ## Included `scripts/`
 
 - `symlink.sh` sets up symbolic links in `$HOME`; For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
