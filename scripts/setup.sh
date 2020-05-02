@@ -34,4 +34,4 @@ else
     echo "Set-up completed in $SECONDS seconds"
 fi
 
-echo "Type the command `bash` or `source ~/.bashrc` to see bash changes."
+echo "Type the command 'bash' or 'source ~/.bashrc' to see bash changes."
