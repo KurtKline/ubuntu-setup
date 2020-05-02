@@ -18,7 +18,7 @@ Install git
 sudo apt install git
 ```
 
-Clone where you want to keep your git projects (e.g. $HOME/Git/) 
+Clone the project (e.g. in $HOME/Git/) 
 ```sh
 git clone https://github.com/KurtKline/ubuntu-setup.git
 ```
