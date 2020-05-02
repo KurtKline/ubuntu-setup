@@ -1,5 +1,5 @@
-# Bare-Bones Ubuntu Set-up
-This branch is basically the same as `master`, but without the aesthetic changes such as desktop themes & extensions, .vimrc, bash customizations, and the installation of zsh.
+# Bare-bones Ubuntu Set-up
+This branch is mostly the same as `master`, but without the aesthetic changes such as desktop themes & extensions, .vimrc, bash customizations, and zsh.
 
 It has been tested on fresh installations of:  
 `Ubuntu 20.04 LTS`  
@@ -34,8 +34,8 @@ cd scripts && ./setup.sh
 Sit back and relax ☕
 
 ## Included `scripts/`
-- `setup.sh` orchestrates the set-up process
-- `symlink.sh` sets up symbolic links in `$HOME`; For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
 - `aptinstall.sh` apt installs
-- `snapinstall.sh` snap installs
 - `programs.sh` install software that cannot use apt/snap installation, or requires additional set-up
+- `setup.sh` orchestrates the set-up process
+- `snapinstall.sh` snap installs
+- `symlink.sh` sets up symbolic links in `$HOME`; For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
