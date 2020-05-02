@@ -9,6 +9,8 @@ It has been tested on fresh installations of:
 https://github.com/victoriadrake/dotfiles/  
 https://github.com/tomnomnom/dotfiles
 
+💡 For a simpler set-up without themes and other aesthetic non-essentials, use the bare-bones branch.
+
 ## How to initiate set-up
 Install git  
 ```sh
