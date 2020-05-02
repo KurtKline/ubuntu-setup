@@ -40,3 +40,9 @@ Sit back and relax ☕
 - `setup.sh` orchestrates the set-up process
 - `snapinstall.sh` snap installs
 - `symlink.sh` sets up symbolic links in `$HOME`; For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
+
+## Themes
+- Desktop environment: [Canta-dark](https://github.com/vinceliuice/Canta-theme) (my default), [Ant-Dracula](https://github.com/EliverLara/Ant-Dracula) (also installed)
+- Gnome extensions: [Blyr](https://extensions.gnome.org/extension/1251/blyr/), [Hide Top Bar](https://extensions.gnome.org/extension/545/hide-top-bar/)
+
+
