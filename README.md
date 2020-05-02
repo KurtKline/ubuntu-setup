@@ -39,4 +39,3 @@ Sit back and relax ☕
 - `aptinstall.sh` apt installs
 - `snapinstall.sh` snap installs
 - `programs.sh` install software that cannot use apt/snap installation, or requires additional set-up
-- `desktop.sh` desktop environment settings and extensions
