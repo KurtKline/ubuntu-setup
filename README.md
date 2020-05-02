@@ -1,8 +1,8 @@
 # Bare-Bones Ubuntu Set-up
 This branch is basically the same as `master`, but without the aesthetic changes such as desktop themes & extensions, .vimrc, bash customizations, and the installation of zsh.
 
-It has been tested on fresh installations of: 
-`Ubuntu 20.04 LTS` 
+It has been tested on fresh installations of:  
+`Ubuntu 20.04 LTS`  
 `Ubuntu 18.04 LTS`
 
 The majority of the code and structure were taken and adapted from:  
