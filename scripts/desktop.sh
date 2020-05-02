@@ -41,8 +41,14 @@ gsettings set org.gnome.desktop.interface clock-show-weekday true
 gsettings set org.gnome.desktop.interface show-battery-percentage true
 
 # Tweaks > Appearance
+if [ $(lsb_release -r -s) == '18.04' ]; then 
+    cur_icon_theme='Humanity'
+else 
+    cur_icon_theme='Yaru'
+fi
+
 gsettings set org.gnome.desktop.interface gtk-theme 'Canta-dark' # Applications
-gsettings set org.gnome.desktop.interface cursor-theme 'Yaru' # Cursor
-gsettings set org.gnome.desktop.interface icon-theme 'Yaru' # Icons
+gsettings set org.gnome.desktop.interface cursor-theme $cur_icon_theme # Cursor
+gsettings set org.gnome.desktop.interface icon-theme $cur_icon_theme # Icons
 gsettings set org.gnome.shell.extensions.user-theme name 'Canta-dark' # Shell
 gsettings set org.gnome.desktop.wm.preferences theme 'Canta-dark'
