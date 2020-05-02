@@ -18,7 +18,7 @@ sudo apt install git
 Clone the project (e.g. in $HOME/Git/)
 ```sh
 git clone https://github.com/KurtKline/ubuntu-setup.git
-git checkout bare-bones 
+cd ubuntu-setup && git checkout bare-bones 
 ```
 
 Grant execute permissions on bash scripts  
