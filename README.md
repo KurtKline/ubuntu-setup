@@ -9,7 +9,7 @@ It has been tested on fresh installations of:
 https://github.com/victoriadrake/dotfiles/  
 https://github.com/tomnomnom/dotfiles
 
-## How to run set-up
+## How to initiate set-up
 Install git  
 ```sh
 sudo apt install git
