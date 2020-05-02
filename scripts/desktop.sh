@@ -29,7 +29,7 @@ gnome-extensions enable hidetopbar@mathieu.bidon.ca
 # Enable user shell themes
 gnome-extensions enable user-theme@gnome-shell-extensions.gcampax.github.com
 
-gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'pycharm-community_pycharm-community.desktop', 'code_code.desktop', 'atom_atom.desktop', 'chromium_chromium.desktop', 'spotify_spotify.desktop', 'org.gnome.Terminal.desktop', 'google-chrome.desktop']"
+gsettings set org.gnome.shell favorite-apps "['org.gnome.Nautilus.desktop', 'pycharm-community_pycharm-community.desktop', 'code_code.desktop', 'atom_atom.desktop', 'google-chrome.desktop', 'spotify_spotify.desktop', 'org.gnome.Terminal.desktop']"
 gsettings set org.gnome.desktop.lockdown disable-lock-screen true
 
 # Tweaks > Extensions
