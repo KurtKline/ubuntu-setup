@@ -34,10 +34,9 @@ cd scripts && ./setup.sh
 Sit back and relax ☕
 
 ## Included `scripts/`
-
-- `symlink.sh` sets up symbolic links in `$HOME`; For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
-- `aptinstall.sh` Ubuntu apt installs
-- `snapinstall.sh` snap installs
-- `programs.sh` installation of other software that cannot use basic install procedure
-- `desktop.sh` desktop environment settings and extensions
 - `setup.sh` orchestrates the set-up process
+- `symlink.sh` sets up symbolic links in `$HOME`; For example: `$HOME/.bashrc -> $HOME/Git/ubuntu-setup/.bashrc`
+- `aptinstall.sh` apt installs
+- `snapinstall.sh` snap installs
+- `programs.sh` install software that cannot use apt/snap installation, or requires additional set-up
+- `desktop.sh` desktop environment settings and extensions
