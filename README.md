@@ -1,17 +1,29 @@
 # Bare-Bones Ubuntu Set-up
-This branch is basically the same as `master`, but without the aesthetic changes such as desktop themes, installation of zsh, .vimrc, and bash customizations.
+This branch is basically the same as `master`, but without the aesthetic changes such as desktop themes & extensions, .vimrc, bash customizations, and the installation of zsh.
 
-The majority of the code and structure were taken and adapted from: 
-https://github.com/victoriadrake/dotfiles/ 
+It has been tested on fresh installations of: 
+`Ubuntu 20.04 LTS` 
+`Ubuntu 18.04 LTS`
+
+The majority of the code and structure were taken and adapted from:  
+https://github.com/victoriadrake/dotfiles/  
 https://github.com/tomnomnom/dotfiles
 
-## How to use
-(1) `git clone` the project under your `$HOME` directory somewhere. I have it under `$HOME/Git/`  
-(2) `cd` into project folder  
-(3) Run `chmod u+x -R scripts` to ensure you have execute permissions for the shell scripts  
-(4) `cd` into the `scripts` folder  
-(5) Run the `setup.sh` script by using the command `./setup.sh`  
-(6) Sit back and relax
+## How to run set-up
+Install git  
+`sudo apt install git`  
+
+Clone where you keep your git projects  
+```sh
+git clone https://github.com/KurtKline/ubuntu-setup.git
+git checkout bare-bones 
+```
+
+Grant execute permissions on shell scripts  
+`cd ubuntu-setup && chmod u+x -R scripts`
+
+Start set-up process  
+`cd scripts && ./setup.sh`
 
 ## Included `scripts/`
 
