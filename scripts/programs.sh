@@ -4,7 +4,7 @@ cd programs/
 
 ./chrome.sh
 ./go.sh
-./vscode.sh
-./python.sh
-./vundle.sh
 ./ohmyzsh.sh
+./python.sh
+./vscode.sh
+./vundle.sh
