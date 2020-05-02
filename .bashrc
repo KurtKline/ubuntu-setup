@@ -116,32 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Color prompt
-export TERM=xterm-256color
-
-# Colors for bash terminal
-txtwht='\[\e[0;37m\]'
-bldwht='\[\e[1;37m\]'
-bldmint='\[\e[38;5;84m\]'
-bldgold='\[\e[38;5;214m\]'
-txtrst='\[\e[0m\]'    # Text Reset
-bldsalmon='38;5;210'
-
-# Prompt colours
-pathC="${bldmint}"
-gitC="${bldgold}"
-pointerC="${txtwht}"
-normalC="${txtrst}"
-exC="${bldsalmon}"
-
-LS_COLORS=$LS_COLORS:"ex=${exC}:" ; export LS_COLORS
-
-gitBranch() {
-    git branch 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/(\1)/'
-}
-
-export PS1="${pathC}\w ${gitC}\$(gitBranch) ${pointerC}\$${normalC} "
-
 # Golang install or upgrade
 function getgolang () {
     sudo rm -rf /usr/local/go
