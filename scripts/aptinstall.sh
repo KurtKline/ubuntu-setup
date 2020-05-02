@@ -21,14 +21,11 @@ install vim
 install htop
 install tree
 install file
-install zsh
 
 # Aesthetic
-install fonts-powerline
 install gnome-tweaks
 install chrome-gnome-shell
 install gnome-shell-extensions
-install gir1.2-gtkclutter-1.0 # For Blyr plugin settings to work
 install figlet
 install lolcat
 
