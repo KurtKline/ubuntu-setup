@@ -32,4 +32,3 @@ function linkDotfile {
 }
 
 linkDotfile .bashrc
-linkDotfile .vimrc
