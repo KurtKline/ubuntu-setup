@@ -23,7 +23,7 @@ Clone the project (e.g. in $HOME/Git/)
 git clone https://github.com/KurtKline/ubuntu-setup.git
 ```
 
-Grant execute permissions on shell scripts  
+Grant execute permissions on bash scripts  
 ```sh
 cd ubuntu-setup && chmod u+x -R scripts
 ```
