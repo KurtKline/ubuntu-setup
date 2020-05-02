@@ -13,8 +13,6 @@ function install {
   fi
 }
 
-install htop
-install tree
 install pycharm-community
 install spotify
 install atom
