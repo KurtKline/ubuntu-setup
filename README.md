@@ -5,11 +5,11 @@ It has been tested on fresh installations of:
 `Ubuntu 20.04 LTS`  
 `Ubuntu 18.04 LTS`
 
-The majority of the code and structure were taken and adapted from:  
+🙌 Much of the code and structure were taken and adapted from 🙌:  
 https://github.com/victoriadrake/dotfiles/  
 https://github.com/tomnomnom/dotfiles
 
-## How to run set-up
+## How to initiate set-up
 Install git  
 ```sh
 sudo apt install git
