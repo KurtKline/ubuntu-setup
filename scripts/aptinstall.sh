@@ -19,7 +19,8 @@ install curl
 install git
 install vim
 install zsh
-install chromium-browser
+
+# Aesthetic
 install fonts-powerline
 install gnome-tweaks
 install chrome-gnome-shell
