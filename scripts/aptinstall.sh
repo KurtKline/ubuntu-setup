@@ -18,6 +18,9 @@ function install {
 install curl
 install git
 install vim
+install htop
+install tree
+install file
 install zsh
 
 # Aesthetic
