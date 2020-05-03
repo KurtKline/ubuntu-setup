@@ -48,4 +48,4 @@ Sit back and relax ☕
 - Desktop environment: [Canta-dark](https://github.com/vinceliuice/Canta-theme) (my default), [Ant-Dracula](https://github.com/EliverLara/Ant-Dracula) (also installed)
 - Gnome extensions: [Blyr](https://extensions.gnome.org/extension/1251/blyr/), [Hide Top Bar](https://extensions.gnome.org/extension/545/hide-top-bar/)
 
-
+💡 I recommend trying [Dash to Dock](https://extensions.gnome.org/extension/307/dash-to-dock/) to improve the look and feel of the dock. I left it out of this installation process because it can be a bit buggy. 
